@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7FC0891F8D9395009668C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FC0881F8D9395009668C8 /* AppDelegate.swift */; };
+		3F7FC08B1F8D9395009668C8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FC08A1F8D9395009668C8 /* HomeController.swift */; };
+		3F7FC0901F8D9395009668C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC08E1F8D9395009668C8 /* Main.storyboard */; };
+		3F7FC0921F8D9395009668C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0911F8D9395009668C8 /* Assets.xcassets */; };
+		3F7FC0951F8D9395009668C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0931F8D9395009668C8 /* LaunchScreen.storyboard */; };
+		3F7FC09F1F8D9693009668C8 /* EditContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FC09E1F8D9693009668C8 /* EditContoller.swift */; };
+		3F7FC0A11F8D96C3009668C8 /* TVStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7FC0A01F8D96C3009668C8 /* TVStreamView.swift */; };
+		3F7FC0B81F8D9C6E009668C8 /* homeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B11F8D9C6E009668C8 /* homeImage.png */; };
+		3F7FC0B91F8D9C6E009668C8 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B21F8D9C6E009668C8 /* image1.png */; };
+		3F7FC0BA1F8D9C6E009668C8 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B31F8D9C6E009668C8 /* image2.png */; };
+		3F7FC0BB1F8D9C6E009668C8 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B51F8D9C6E009668C8 /* 20-gear2.png */; };
+		3F7FC0BC1F8D9C6E009668C8 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B61F8D9C6E009668C8 /* 28-star.png */; };
+		3F7FC0BD1F8D9C6E009668C8 /* viewer-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7FC0B71F8D9C6E009668C8 /* viewer-7.png */; };
+		3FD11CEE1F9287CC001D4C0F /* ModifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD11CED1F9287CC001D4C0F /* ModifyController.swift */; };
+		3FE6CA7E1F91243000491E4C /* Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6CA7D1F91242F00491E4C /* Channels.swift */; };
+		6B7A89711F97DC0C00A6EF4A /* cool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B7A89701F97DC0C00A6EF4A /* cool.jpg */; };
+		6B7A89731F97DC1500A6EF4A /* linear.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6B7A89721F97DC1500A6EF4A /* linear.gif */; };
+		AE26B8151F915E61004DFAFE /* backButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = AE26B8141F915E61004DFAFE /* backButtonImage.png */; };
+		AE4ED9B11F8EB0EC00C15058 /* StationContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4ED9B01F8EB0EC00C15058 /* StationContoller.swift */; };
+		AED230D71F8EB9B6004ADF91 /* ConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED230D61F8EB9B6004ADF91 /* ConfigController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7FC0851F8D9395009668C8 /* InternetTelevision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetTelevision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7FC0881F8D9395009668C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7FC08A1F8D9395009668C8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3F7FC08F1F8D9395009668C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7FC0911F8D9395009668C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7FC0941F8D9395009668C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7FC0961F8D9395009668C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7FC09E1F8D9693009668C8 /* EditContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditContoller.swift; sourceTree = "<group>"; };
+		3F7FC0A01F8D96C3009668C8 /* TVStreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVStreamView.swift; sourceTree = "<group>"; };
+		3F7FC0B11F8D9C6E009668C8 /* homeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeImage.png; sourceTree = "<group>"; };
+		3F7FC0B21F8D9C6E009668C8 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		3F7FC0B31F8D9C6E009668C8 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		3F7FC0B51F8D9C6E009668C8 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		3F7FC0B61F8D9C6E009668C8 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		3F7FC0B71F8D9C6E009668C8 /* viewer-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "viewer-7.png"; sourceTree = "<group>"; };
+		3FD11CED1F9287CC001D4C0F /* ModifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyController.swift; sourceTree = "<group>"; };
+		3FE6CA7D1F91242F00491E4C /* Channels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channels.swift; sourceTree = "<group>"; };
+		6B7A89701F97DC0C00A6EF4A /* cool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cool.jpg; path = Gifs/cool.jpg; sourceTree = "<group>"; };
+		6B7A89721F97DC1500A6EF4A /* linear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = linear.gif; path = Gifs/linear.gif; sourceTree = "<group>"; };
+		AE26B8141F915E61004DFAFE /* backButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonImage.png; sourceTree = "<group>"; };
+		AE4ED9B01F8EB0EC00C15058 /* StationContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationContoller.swift; sourceTree = "<group>"; };
+		AED230D61F8EB9B6004ADF91 /* ConfigController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7FC0821F8D9395009668C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7FC07C1F8D9395009668C8 = {
+			isa = PBXGroup;
+			children = (
+				3F7FC0B01F8D9C6E009668C8 /* slideShow */,
+				3F7FC0B41F8D9C6E009668C8 /* tabbarimages */,
+				3F7FC0871F8D9395009668C8 /* InternetTelevision */,
+				3F7FC0861F8D9395009668C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7FC0861F8D9395009668C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FC0851F8D9395009668C8 /* InternetTelevision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7FC0871F8D9395009668C8 /* InternetTelevision */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FC0881F8D9395009668C8 /* AppDelegate.swift */,
+				3F7FC08A1F8D9395009668C8 /* HomeController.swift */,
+				3F7FC08E1F8D9395009668C8 /* Main.storyboard */,
+				AE4ED9B01F8EB0EC00C15058 /* StationContoller.swift */,
+				3FD11CED1F9287CC001D4C0F /* ModifyController.swift */,
+				3F7FC0911F8D9395009668C8 /* Assets.xcassets */,
+				3F7FC0931F8D9395009668C8 /* LaunchScreen.storyboard */,
+				3FE6CA7D1F91242F00491E4C /* Channels.swift */,
+				AED230D61F8EB9B6004ADF91 /* ConfigController.swift */,
+				3F7FC09E1F8D9693009668C8 /* EditContoller.swift */,
+				3F7FC0A01F8D96C3009668C8 /* TVStreamView.swift */,
+				3F7FC0961F8D9395009668C8 /* Info.plist */,
+			);
+			path = InternetTelevision;
+			sourceTree = "<group>";
+		};
+		3F7FC0B01F8D9C6E009668C8 /* slideShow */ = {
+			isa = PBXGroup;
+			children = (
+				6B7575DF1F96EFC1002DD336 /* Gifs */,
+				3F7FC0B11F8D9C6E009668C8 /* homeImage.png */,
+				3F7FC0B21F8D9C6E009668C8 /* image1.png */,
+				3F7FC0B31F8D9C6E009668C8 /* image2.png */,
+			);
+			path = slideShow;
+			sourceTree = "<group>";
+		};
+		3F7FC0B41F8D9C6E009668C8 /* tabbarimages */ = {
+			isa = PBXGroup;
+			children = (
+				AE26B8141F915E61004DFAFE /* backButtonImage.png */,
+				3F7FC0B51F8D9C6E009668C8 /* 20-gear2.png */,
+				3F7FC0B61F8D9C6E009668C8 /* 28-star.png */,
+				3F7FC0B71F8D9C6E009668C8 /* viewer-7.png */,
+			);
+			path = tabbarimages;
+			sourceTree = "<group>";
+		};
+		6B7575DF1F96EFC1002DD336 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				6B7A89701F97DC0C00A6EF4A /* cool.jpg */,
+				6B7A89721F97DC1500A6EF4A /* linear.gif */,
+			);
+			name = Gifs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7FC0841F8D9395009668C8 /* InternetTelevision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7FC0991F8D9395009668C8 /* Build configuration list for PBXNativeTarget "InternetTelevision" */;
+			buildPhases = (
+				3F7FC0811F8D9395009668C8 /* Sources */,
+				3F7FC0821F8D9395009668C8 /* Frameworks */,
+				3F7FC0831F8D9395009668C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetTelevision;
+			productName = InternetTelevision;
+			productReference = 3F7FC0851F8D9395009668C8 /* InternetTelevision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7FC07D1F8D9395009668C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kristen Chipolla";
+				TargetAttributes = {
+					3F7FC0841F8D9395009668C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F7FC0801F8D9395009668C8 /* Build configuration list for PBXProject "InternetTelevision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7FC07C1F8D9395009668C8;
+			productRefGroup = 3F7FC0861F8D9395009668C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7FC0841F8D9395009668C8 /* InternetTelevision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7FC0831F8D9395009668C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7FC0BB1F8D9C6E009668C8 /* 20-gear2.png in Resources */,
+				6B7A89711F97DC0C00A6EF4A /* cool.jpg in Resources */,
+				3F7FC0B81F8D9C6E009668C8 /* homeImage.png in Resources */,
+				3F7FC0B91F8D9C6E009668C8 /* image1.png in Resources */,
+				3F7FC0BA1F8D9C6E009668C8 /* image2.png in Resources */,
+				AE26B8151F915E61004DFAFE /* backButtonImage.png in Resources */,
+				3F7FC0951F8D9395009668C8 /* LaunchScreen.storyboard in Resources */,
+				3F7FC0BD1F8D9C6E009668C8 /* viewer-7.png in Resources */,
+				3F7FC0921F8D9395009668C8 /* Assets.xcassets in Resources */,
+				6B7A89731F97DC1500A6EF4A /* linear.gif in Resources */,
+				3F7FC0901F8D9395009668C8 /* Main.storyboard in Resources */,
+				3F7FC0BC1F8D9C6E009668C8 /* 28-star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7FC0811F8D9395009668C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7FC0A11F8D96C3009668C8 /* TVStreamView.swift in Sources */,
+				AED230D71F8EB9B6004ADF91 /* ConfigController.swift in Sources */,
+				AE4ED9B11F8EB0EC00C15058 /* StationContoller.swift in Sources */,
+				3F7FC0891F8D9395009668C8 /* AppDelegate.swift in Sources */,
+				3FE6CA7E1F91243000491E4C /* Channels.swift in Sources */,
+				3FD11CEE1F9287CC001D4C0F /* ModifyController.swift in Sources */,
+				3F7FC08B1F8D9395009668C8 /* HomeController.swift in Sources */,
+				3F7FC09F1F8D9693009668C8 /* EditContoller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7FC08E1F8D9395009668C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7FC08F1F8D9395009668C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7FC0931F8D9395009668C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7FC0941F8D9395009668C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7FC0971F8D9395009668C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7FC0981F8D9395009668C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7FC09A1F8D9395009668C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternetTelevision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCA.InternetTelevision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F7FC09B1F8D9395009668C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InternetTelevision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UCA.InternetTelevision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7FC0801F8D9395009668C8 /* Build configuration list for PBXProject "InternetTelevision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7FC0971F8D9395009668C8 /* Debug */,
+				3F7FC0981F8D9395009668C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7FC0991F8D9395009668C8 /* Build configuration list for PBXNativeTarget "InternetTelevision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7FC09A1F8D9395009668C8 /* Debug */,
+				3F7FC09B1F8D9395009668C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7FC07D1F8D9395009668C8 /* Project object */;
+}
